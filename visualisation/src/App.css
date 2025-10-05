@@ -1,0 +1,6 @@
+.common__heading::before {
+  content: "|";
+  color: red;
+  font-size: inherit;
+  margin-right: 10px;
+}
