@@ -3,8 +3,7 @@ import UpperHeader from "./Components/UpperHeader";
 import Herosection from "./Components/Herosection";
 import FlashCardSection from "./Components/Flashcards";
 import Footer from "./Components/Footer";
-import CardSection from "./Components/Smallcards";
-import Statssection from "./Components/Statssection";
+import CardSection from "./Components/SmallCards";
 import Foot from "./assets/R.jpeg";
 import "./App.css";
 function App() {
