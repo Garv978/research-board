@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./Components/Navbar";
 import UpperHeader from "./Components/UpperHeader";
 import Herosection from "./Components/Herosection";
 import FlashCardSection from "./Components/Flashcards";
