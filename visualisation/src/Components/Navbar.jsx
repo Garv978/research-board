@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <nav className="bg-[#0369a0] sticky top-0 z-50 nav-shadow backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto px-6 py-4">
+        <div className="max-w-7xl mx-auto  py-2">
           <div className="flex items-center justify-between">
             <Logo />
 

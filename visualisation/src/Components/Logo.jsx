@@ -10,8 +10,8 @@ function Logo() {
           className="w-8 h-8 object-contain"
         />
       </div>
-      <h1 className="text-white text-3xl font-bold font-ubuntu tracking-tight">
-        NITJ 
+      <h1 className="text-white text-2xl font-bold font-ubuntu tracking-tight">
+        Dr. B R Ambedkar National Institute of Technology 
       </h1>
     </div>
   );

@@ -17,10 +17,13 @@ function Linkelement({ link, text }) {
     </a>
   );
 }
-
+function ReachUs() {
+  return (<></>);
+};
 function Footer() {
   return (
     <>
+    <ReachUs />
       <div class="flex flex-col justify-between bg-slate-800 text-white lg:flex-row lg:px-20">
         <div class="flex basis-1/3 flex-col border-y-gray-300 p-[25px] lg:border-r lg:border-zinc-400">
           <div class="flex flex-row items-center gap-x-[10px] pb-3">
