@@ -1,4 +1,4 @@
-import hero from '../assets/R.jpeg';
+import hero from "../assets/R.jpeg";
 
 function SmallCard({ title, image, link }) {
   return (
@@ -16,9 +16,7 @@ function SmallCard({ title, image, link }) {
         </div>
 
         <div className="grow">
-          <h3 className="text-xl font-semibold text-black ">
-            {title}
-          </h3>
+          <h3 className="text-xl font-semibold text-black ">{title}</h3>
         </div>
       </div>
     </a>
@@ -60,15 +58,25 @@ function CardSection() {
   ];
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6  dark:border-neutral-800 max-w-[2000px] mx-auto px-4 py-10">
-      {cards.map((card, index) => (
-        <SmallCard
-          key={index}
-          title={card.title}
-          image={card.image}
-          link={card.link}
-        />
-      ))}
+    <div className="bg-gray-50">
+      <h1 className="flex justify-center items-center text-5xl font-lora font-bold pt-[50px]">
+        Featured Publications
+      </h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6  dark:border-neutral-800 max-w-[2000px] mx-auto px-4 py-10">
+        {cards.map((card, index) => (
+          <SmallCard
+            key={index}
+            title={card.title}
+            image={card.image}
+            link={card.link}
+          />
+        ))}
+      </div>
+      <div className="flex justify-center p-[20px]">
+        <div className="px-6 py-3 border-2 border-red-600 text-white font-bold rounded-lg bg-red-500 hover:bg-red-600 transition cursor-pointer text-center">
+          SHOW MORE RESEARCH HIGHLIGHTS
+        </div>
+      </div>
     </div>
   );
 }

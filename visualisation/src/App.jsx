@@ -4,6 +4,7 @@ import Footer from "./Components/Footer";
 import Herosection from "./Components/Herosection";
 import Navbar from "./Components/Navbar";
 import Directorate from "./Components/Directorate"; 
+import Department from "./Components/Department";
 import CardSection from "./Components/SmallCards";
 import UpperHeader from "./Components/UpperHeader";
 import Foot from "./assets/R.jpeg";
@@ -55,8 +56,9 @@ function App() {
       <hr class="border-t border-gray-300 my-4" />
       <Directorate/>
       <hr class="border-t border-gray-300 my-4" />
-
-      <div className="relative w-full h-[400px] my-10">
+      <Department/>
+      
+      <div className="relative w-full h-[400px]">
         <div
           className="absolute inset-0 bg-no-repeat bg-cover bg-center"
           style={{
@@ -68,11 +70,6 @@ function App() {
 
       <div>
         <CardSection />
-      </div>
-      <div className="flex justify-center my-8">
-        <div className="px-6 py-3 border-2 border-red-600 text-white font-bold rounded-lg bg-red-500 hover:bg-red-600 transition cursor-pointer text-center">
-          SHOW MORE RESEARCH HIGHLIGHTS
-        </div>
       </div>
       {/* <Statssection /> */}
 

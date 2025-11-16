@@ -12,14 +12,6 @@ function Herosection() {
             "url(https://www.iitb.ac.in/sites/www.iitb.ac.in/files/styles/banner_style_low_pivot/public/2024-02/fhgfhfgh.jpg?itok=6I-F_mrV)",
         }}
       ></div>
-
-
-      {/* Centered text */}
-      <div className="absolute inset-0 flex items-start justify-center">
-        <h1 className="text-white text-4xl md:text-5xl font-bold">
-          RESEARCH HIGHLIGHTS
-        </h1>
-      </div>
     </div>
   );
 }
