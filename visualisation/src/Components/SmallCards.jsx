@@ -1,4 +1,10 @@
 import hero from "../assets/R.jpeg";
+import Jagdeep from "../assets/Jagdeep.jpg";
+import Chakraborty from "../assets/Chakraborty.jpg";
+import AnilKumar from "../assets/AnilKumar.jpg";
+import AjayKSharma from "../assets/AjayKSharma.jpg";
+import GauravKumar from "../assets/GauravKumar.png";
+import Nagendra from "../assets/Narendra.webp";
 
 function SmallCard({ title, image, link }) {
   return (
@@ -26,33 +32,33 @@ function SmallCard({ title, image, link }) {
 function CardSection() {
   const cards = [
     {
-      title: "How cool motorbikes are choking Indian cities!",
-      image: hero,
+      title: " Establishing Science & Technology Innovation Hub in Jalandhar Cluster",
+      image: Jagdeep,
       link: "https://www.google.com",
     },
     {
-      title: "Why getting too personal may harm e-Commerce!",
-      image: hero,
+      title: "Technology Gap study for the Bicycle parts manufacturers cluster at Ludhiana",
+      image: Chakraborty,
       link: "https://www.google.com",
     },
     {
-      title: "Curing Cancer – An effective treatment on the horizon",
-      image: hero,
+      title: " Development of Multi-rating Battery charger for charging station of electric vehicles via solar photovoltaic",
+      image: AnilKumar,
       link: "https://www.google.com",
     },
     {
-      title: "How cool motorbikes are choking Indian cities!",
-      image: hero,
+      title: "Special Manpower Development Programme for Chips to System Design (SMDP-C2SD)",
+      image: AjayKSharma,
       link: "https://www.google.com",
     },
     {
-      title: "Why getting too personal may harm e-Commerce!",
-      image: hero,
+      title: " Wage discrimination across sectors amidst COVID-19 pandemics: A gendered perspective from the selected northern Indian states",
+      image: GauravKumar,
       link: "https://www.google.com",
     },
     {
-      title: "Curing Cancer – An effective treatment on the horizon",
-      image: hero,
+      title: "Study of general and functional requirements concerning safety and performance of Arthroscopy",
+      image: Nagendra,
       link: "https://www.google.com",
     },
   ];

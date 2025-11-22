@@ -1,65 +1,77 @@
-import hero from "../assets/R.jpeg";
 import Amritpal from "../assets/Amritpal.png";
-import Jagdeep from "../assets/Jagdeep.png";
-import Kuwarpal from "../assets/Kuwarpal.png";
-function FlashCard({ title, date, description, departments, img, link}) {
+import Kanojia from "../assets/Kanojia.png";
+import Khosla from "../assets/Khosla.png";
+
+function FlashCard({ 
+  title, 
+  date, 
+  description, 
+  img, 
+  link 
+}) {
   return (
-    <a className="group flex flex-col bg-white border border-gray-800 shadow-2xs rounded-xl max-w-sm focus:outline-none 
-transition-transform duration-300 hover:scale-105"
-    href={link}>
-      <div className="aspect-w-16 aspect-h-9">
+    <a
+      href={link}
+      className="group block bg-white rounded-xl overflow-hidden 
+                 border border-gray-200 shadow-md hover:shadow-xl 
+                 transition-all duration-300 hover:-translate-y-1"
+    >
+      {/* Image */}
+      <div className="relative w-full h-48 overflow-hidden">
         <img
-          className="w-full object-cover rounded-t-xl"
           src={img}
-          alt="Card Image"
+          alt="Card"
+          className="w-full h-full object-cover 
+                     transition-transform duration-500 
+                     group-hover:scale-110"
         />
       </div>
-      <div className="p-4 md:p-5">
-        <p className="mt-1 text-xs uppercase text-black ">
+
+      {/* Content */}
+      <div className="p-4 space-y-2">
+        <p className="text-xs uppercase tracking-wide text-gray-500">
           {date}
         </p>
-        <h3 className="mt-2 text-lg font-semibold  text-black ">
+
+        <h3 className="text-lg font-semibold text-gray-900 group-hover:text-black">
           {title}
         </h3>
-        <p className="mt-1 text-black text-sm">
+
+        <p className="text-sm text-gray-700 line-clamp-3">
           {description}
         </p>
-        <p className="mt-2 text-white bg-black text-base font-semibold px-3 py-1 rounded-full inline-block">
-          {departments.join(" | ")}
-        </p>
+
       </div>
     </a>
   );
 }
 
 
+
 function FlashCardSection() {
   const cardsData = [
     {
       title: "Fog-cloud centric IoT assisted technologies in healthcare",
-      date: "2020-2022",
+      date: "2021-2022",
       description:
         "This project focused on leveraging fog and cloud computing architectures with Internet of Thing ...",
-      departments: ["Department of Computer Science and Engineering"],
       img: Amritpal,
       link: "https://www.google.com",
     },
     {
-      title: "An intelligent network analyzer cum patcher for advanced security hardening of organizational networks",
-      date: "2024-09-27",
+      title: " Biologically Inspired Retinal Prosthesis Based Biomedical",
+      date: " 2023-2025",
       description:
-        "automated solution that continuously monitors, detects, and remediates network vulnerabilities tol...",
-      departments: ["Department of Computer Science and Engineering"],
-      img: Jagdeep,
+        "A biologically inspired retinal prosthesis is a biomedical implant developed to partially restore vision for people who are blind due to retinal di...",
+      img: Kanojia,
       link: "https://www.google.com",
     },
     {
-      title: "CA lightweight robust path-planning scheme for multi-UAVs Based on Gravitational Potential Field",
-      date: "Feb 2024-Feb 2027",
+      title: "Technology Business Incubator",
+      date: "2017-2022",
       description:
-        "efficiently guides multiple UAVs through dynamic environments by calculating attractive and repulsive vi...",
-      departments: ["Department of Computer Science and Engineering"],
-      img: Kuwarpal,
+        "A Technology Business Incubator (TBI) is an organization that supports early-stage, technology-based startups and knowledge-driven businesses so they can grow into sustainable companies. It provides them wit...",
+      img: Khosla,
       link: "https://www.google.com",
     },
   ];

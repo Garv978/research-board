@@ -4,6 +4,7 @@ import Footer from "./Components/Footer";
 import Herosection from "./Components/Herosection";
 import Navbar from "./Components/Navbar";
 import Directorate from "./Components/Directorate"; 
+import { AcademicResearch } from "./Components/AcademicResearch"; 
 import Department from "./Components/Department";
 import CardSection from "./Components/SmallCards";
 import UpperHeader from "./Components/UpperHeader";
@@ -55,7 +56,8 @@ function App() {
 
       <hr class="border-t border-gray-300 my-4" />
       <Directorate/>
-      <hr class="border-t border-gray-300 my-4" />
+      {/* <hr class="border-t border-gray-300 my-4" /> */}
+      <AcademicResearch />
       <Department/>
       
       <div className="relative w-full h-[400px]">
