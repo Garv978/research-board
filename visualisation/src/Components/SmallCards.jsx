@@ -34,7 +34,7 @@ function CardSection() {
     {
       title: " Establishing Science & Technology Innovation Hub in Jalandhar Cluster",
       image: Jagdeep,
-      link: "https://www.google.com",
+      link: "https://www.nitj.ac.in/research/sti_hub.html",
     },
     {
       title: "Technology Gap study for the Bicycle parts manufacturers cluster at Ludhiana",

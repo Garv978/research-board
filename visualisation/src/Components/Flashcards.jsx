@@ -56,7 +56,7 @@ function FlashCardSection() {
       description:
         "This project focused on leveraging fog and cloud computing architectures with Internet of Thing ...",
       img: Amritpal,
-      link: "https://www.google.com",
+      link: "https://ieeexplore.ieee.org/document/9168070",
     },
     {
       title: " Biologically Inspired Retinal Prosthesis Based Biomedical",
@@ -72,7 +72,7 @@ function FlashCardSection() {
       description:
         "A Technology Business Incubator (TBI) is an organization that supports early-stage, technology-based startups and knowledge-driven businesses so they can grow into sustainable companies. It provides them wit...",
       img: Khosla,
-      link: "https://www.google.com",
+      link: "https://www.nitj.ac.in/research/TechnologyBusinessIncubator.html",
     },
   ];
 
